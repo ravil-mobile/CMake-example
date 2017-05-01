@@ -1,0 +1,36 @@
+# The file contais the tasks that have to be done in the future
+--------------------------------------------------------------------------------
+								FILE DESCRIPTION:
+# The file is devided into few groups by its ranks
+	# A rank can have the following type:
+		- [ Super High ]
+		- [ High ]
+		- [ Middle ]
+		- [ Low ]
+		- [ Super Low ]
+	# Each rank can contain priorities. It's usually represented by an integer
+	  number. The priority just show what task has to be executed at first
+	  within the rank 
+
+# Each line has to contain several tags, namely:
+	1. Rank
+	2. Priority
+	3. Message - a short text explaing what has to be done for the next update
+
+--------------------------------------------------------------------------------
+[ High ] [ 1 ] the proper Exception Handling has to be devised based on 
+			   the OOP paradigm 
+
+[ High ] [ 2 ] the Matrix and Vector classes has to unit tested
+
+[ High ] [ 3 ] the sparse solver has to be embedded 
+
+[ Middle ] [ 1 ] At least 65% of code has to be unit tested
+
+[ Middle ] [ 2 ] Check the operation such copying and assignment for memory leaks
+
+[ Middle ] [ 3 ] Expand the code to handle Structure Mechanics in 2D
+
+[ Low ] [ 1 ] Make comparison with ANSYS
+
+ 
